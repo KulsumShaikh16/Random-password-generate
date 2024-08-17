@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>generate password</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div class="main">
+        <h1 class="heading">Generate a <br><span style=" color: #007C4B; border-bottom:6px solid #007C4B;">Random Password</span></h1>
+        <div class="input-box">
+            <input type="text" placeholder="password" 
+            id="password">
+            <i onclick="copyPassword(copied())" id="content-copy" class="fa-regular fa-copy"></i>
+        </div class="generate-btn">
+
+        
+
+        <button onclick="createPassword()" style="background-color:#007C4B; color: aliceblue;">Generate Password</button>
+       
+     </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
